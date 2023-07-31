@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsom Text Generator</title>
+    <!-- Tailwind amd DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-[calc(100vh-3.5rem)] flex flex-col justify-center items-center gap-5 px-5 p-8">
+    <!-- Text Generate Button -->
+    <h2 class="text-xl">Generate Dummy Text</h2>
+    <input type="text" id="inputByUser" placeholder="Number of Paragraps" class="input input-bordered input-info w-full max-w-xs" />
+    <button id="jsBtn" class="btn btn-outline btn-success">Generate Lorem</button>
+    <!-- Show Generated Content -->
+    <div id="show" class="flex flex-col justify-center items-center gap-5"></div>
+
+
+
+    <!-- javaScript -->
+    <script src="problem5.js"></script>
+</body>
+</html>
